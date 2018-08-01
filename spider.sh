@@ -9,6 +9,7 @@ echo '' >> SCREENSHOTS-$1.md
 for f in $Links; do
     v=$(echo $f.png | sed 's|http://127.0.0.1:7657/||g' | tr -d '/' )
     wkhtmltoimage $f $v
+    mat $v
     echo " * ![$f]($v)" >> SCREENSHOTS-$1.md
     echo '' >> SCREENSHOTS-$1.md
 done
