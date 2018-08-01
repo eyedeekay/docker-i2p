@@ -1,6 +1,11 @@
 
 filename=history.txt.png
 
+list=$(find . -size +99M)
+
+echo:
+	@echo $(list)
+
 build:
 	docker build -t eyedeekay/i2p .
 

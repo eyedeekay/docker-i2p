@@ -12,3 +12,7 @@ deliberately publishing information from the router console. I'm doing it
 because sometimes you need to circle something and write a note next to it.
 Should you choose to use this image, your keys will be different from the keys
 of the router in the images published in the screenshots.
+
+To run from a clone,
+
+    make build run
