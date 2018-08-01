@@ -11,8 +11,6 @@ SCREENSHOTS
 
  * ![http://127.0.0.1:7657/config.jsp](config.jsp.png)
 
- * ![irc://127.0.0.1:6668/i2p](irc:127.0.0.1:6668i2p.png)
-
  * ![http://127.0.0.1:7657/dns](dns.png)
 
  * ![http://127.0.0.1:7657/help](help.png)
