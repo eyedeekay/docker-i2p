@@ -9,4 +9,5 @@ clean:
 	docker rm -f i2p; true
 
 get:
-	./spider.sh
+	./spider
+
