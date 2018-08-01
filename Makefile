@@ -1,4 +1,6 @@
 
+filename=history.txt.png
+
 build:
 	docker build -t eyedeekay/i2p .
 
@@ -11,3 +13,7 @@ clean:
 get:
 	./spider
 
+repo-clean:
+	git filter-branch --prune-empty -d /dev/shm/scratch \
+		--index-filter "git rm --cached -f --ignore-unmatch $(filename)" \
+		--tag-name-filter cat -- --all
